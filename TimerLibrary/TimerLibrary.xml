@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TimerLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:TimerLibrary.Countdown">
+            <summary>
+            A Countdown class, which implements the capability after the appointed time.
+            </summary>
+        </member>
+        <member name="E:TimerLibrary.Countdown.TimerIsOver">
+            <summary>
+            Event when time over.
+            </summary>
+        </member>
+        <member name="M:TimerLibrary.Countdown.TimerStart(System.Int32)">
+            <summary>
+            Starts  countdown.
+            </summary>
+            <param name="timer">The amount of seconds.</param>
+        </member>
+        <member name="T:TimerLibrary.TimerEventArgs">
+            <summary>
+            .
+            </summary>
+        </member>
+        <member name="M:TimerLibrary.TimerEventArgs.#ctor(System.Int32,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:TimerLibrary.TimerEventArgs"/> class.
+            </summary>
+            <param name="value">The secunds.</param>
+            <param name="message">The message.</param>
+        </member>
+        <member name="M:TimerLibrary.TimerEventArgs.ToString">
+            <summary>
+            The method returns a string representation of the object.
+            </summary>
+            <returns>.</returns>
+        </member>
+    </members>
+</doc>
