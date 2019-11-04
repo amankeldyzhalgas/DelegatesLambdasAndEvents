@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29411.108
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimerLibrary", "TimerLibrary\TimerLibrary.csproj", "{33D16904-08EE-4623-8A83-5F6AB19C5514}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimerLibrary", "TimerLibrary\TimerLibrary.csproj", "{33D16904-08EE-4623-8A83-5F6AB19C5514}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleClient", "ConsoleClient\ConsoleClient.csproj", "{CA80ED4B-CB94-44F7-A5DB-C9B652E29F8F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Greatest_Common_Divisor", "Greatest_Common_Divisor\Greatest_Common_Divisor.csproj", "{CA478874-1433-4244-B0B0-FAE04F23CAE0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BubbleSortLibrary", "BubbleSortLibrary\BubbleSortLibrary.csproj", "{74A9CF37-2ABC-45D2-9F83-662F4F765875}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BubbleSortLibrary.Tests", "BubbleSortLibrary.Tests\BubbleSortLibrary.Tests.csproj", "{FD3AEBFB-37D2-469A-A1B6-5B40FBA83C87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{CA80ED4B-CB94-44F7-A5DB-C9B652E29F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA80ED4B-CB94-44F7-A5DB-C9B652E29F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA80ED4B-CB94-44F7-A5DB-C9B652E29F8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA478874-1433-4244-B0B0-FAE04F23CAE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA478874-1433-4244-B0B0-FAE04F23CAE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA478874-1433-4244-B0B0-FAE04F23CAE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA478874-1433-4244-B0B0-FAE04F23CAE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74A9CF37-2ABC-45D2-9F83-662F4F765875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74A9CF37-2ABC-45D2-9F83-662F4F765875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74A9CF37-2ABC-45D2-9F83-662F4F765875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74A9CF37-2ABC-45D2-9F83-662F4F765875}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD3AEBFB-37D2-469A-A1B6-5B40FBA83C87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD3AEBFB-37D2-469A-A1B6-5B40FBA83C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD3AEBFB-37D2-469A-A1B6-5B40FBA83C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD3AEBFB-37D2-469A-A1B6-5B40FBA83C87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
